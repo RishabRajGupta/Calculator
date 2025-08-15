@@ -1,0 +1,89 @@
+div {
+    
+}
+
+#canvas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#calculator {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 600px;
+    gap: 15px;
+}
+
+#keypad {
+    flex: 7;
+    display: flex;
+    flex-direction: row;
+    gap: 15px; 
+}
+
+#numbers {
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#numbers button {
+    flex: 1 0 calc(33.33% - 10px);
+}
+
+#operations {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    font-size: 2rem; 
+    border-radius: 5rem;
+}
+
+#operations button {
+    flex: 1; 
+    font-size: 3rem;
+}
+
+#screen {
+    flex: 3;
+    font-size: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    color: aliceblue;
+    border: 1px solid gray;
+    border-radius: 5rem;
+}
+
+body {
+    background-color: black;
+}
+
+#C {
+    background-color: lightgray;
+}
+
+#back {
+    background-color: lightgray;
+}
+
+.keys {
+    background-color: gray;
+}
+
+.op {
+    background-color: orange;
+}
+
+.eq {
+    background-color: orange;
+}
